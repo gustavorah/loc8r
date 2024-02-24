@@ -7,13 +7,13 @@ const homelist = (req, res) => {
 // get 'location info' page
 
 const locationInfo = (req, res) => {
-    res.render('index', { title: "Location info" });
+    res.render('locations-info', { title: "Location info" });
 };
 
 // get 'add review' page
 
 const addReview = (req, res) => {
-    res.render('index', { title: "Add review" });
+    res.render('location-review-form', { title: "Add review" });
 };
 
 module.exports = {
